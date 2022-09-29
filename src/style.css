@@ -1,0 +1,51 @@
+@media (max-width:992px) {/*md meret*/
+	#inputs{
+		display: flex;
+		flex-direction: column;
+	}
+	#inputs>input{
+		width: 141px;
+		margin: 0.1rem 0;
+	}
+	#inputs #input-color{
+		width: 64px;
+	}
+}
+body{
+	color: black;
+	min-height: 100vh;
+	font-family: arial;
+	margin: 0;
+}
+.darkmode{
+	background-color: rgb(32, 32, 32);
+	color: white;
+}
+.content{
+	padding:1rem 1rem 0;
+}
+.footer{
+	align-items: center;
+	background-color: rgb(200, 200, 200);
+	position: sticky;
+	display: flex;
+	flex-direction: column;
+	height: 5.5rem;
+	top: calc(100vh - 5.5rem);
+}
+body.darkmode>.footer{
+	background-color: rgb(40, 40, 40);
+}
+.footer p{
+	margin: 1rem 0;
+
+}
+#darkmode{
+	background-color: transparent;
+	border: 2px black solid;
+	border-radius: 0.4rem;
+	width: 5rem;
+}
+#darkmode:hover{
+	background-color: rgb(128, 128, 128);
+}
